@@ -1,0 +1,46 @@
+### Files needed for extraction of sequence data 
+
+ENCFF957KRB_DHS.bed		
+Sample Dnase Hypersensitivity file for Bcell
+ENCFF579EPE_H3K27ac.bed		
+Sample H3K27ac modification file for Bcell 
+
+hg19.2bit		
+human genome sequence binary file
+
+	
+#link
+	http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/
+
+	
+## tools needed
+
+		bedtool     tool to manipulate bed files
+
+			
+#link
+			http://bedtools.readthedocs.io/en/latest/
+
+		
+twoBitToFa  convert 2bit binary file to fasta file
+
+			
+#link
+			http://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/
+
+
+
+### After getting sequence from bed files or fasta(sequences) file given as input
+
+	
+
+## 
+
+1) generate all permutation of 'ATGC' for 2 to 6 position
+	  
+2) calculate permutations frequencies and statistical parameters for each sequence
+           
+3) predict sequence label using model
+          
+4) Deliver result  
+
